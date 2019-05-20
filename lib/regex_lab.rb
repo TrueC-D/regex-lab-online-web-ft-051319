@@ -2,9 +2,6 @@ require "pry"
 
 def starts_with_a_vowel?(word)
   if (word.match(/\A+[aeiou]/) == "a"||"e"||"i"||"o"||"u")? true: false
-    true
-  else
-    false
   end
 end
 
